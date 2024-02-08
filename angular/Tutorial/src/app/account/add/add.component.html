@@ -1,0 +1,6 @@
+<form #userForm="ngForm" enctype="multipart/form-data" (ngSubmit)="onSubmit()">
+    <label>Account Name:</label>
+    <input type="text" id="accountName" [(ngModel)]="name" name="accountName" required>
+    <input type="text" id="displayName" [value]="name" [disabled]="true" name="displayName">
+    <button type="submit">Add Account</button>
+</form>

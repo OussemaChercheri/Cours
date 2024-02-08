@@ -8,7 +8,12 @@ var indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 
 
+
 var app = express();
+
+app.listen(3001,()=>{
+    console.log('server is running');
+})
 
 app.use(logger('dev'));
 app.use(express.json());
@@ -18,6 +23,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/api/users', usersRouter)
+
+app.get("/", (req, res, next)=>{
+    res.send("Oussema Chercheri")
+})
+
 
 
 module.exports = app;
