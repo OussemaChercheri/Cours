@@ -1,0 +1,122 @@
+
+    <div class="card-container">
+    <div class="card">
+        <div class="front">
+            <div class="cover">
+                <img src="assets/images/rotating_card_thumb3.png"/>
+            </div>
+                <!-- image -->
+            <div class="user">
+                <img class="img-circle" src="assets/images/rotating_card_profile.png"/>
+            </div>
+            <div class="content">
+                <div class="main">
+                    <!-- name -->
+                    <h3 class="name">{{name}}</h3>
+                    <!-- profession -->
+                    <p class="profession">{{job}}</p>
+                    <!-- desc -->
+                    <p class="text-center" id="desc">{{desc}}</p>
+                </div>
+                <div class="footer">
+                    <div class="rating">
+                        <i class="fa fa-mail-forward"></i> Auto Rotation
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end front panel -->
+        <div class="back">
+            
+            <div class="header">
+                <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+            </div>
+
+            <div class="content">
+                <div class="main">
+                    <h4 class="text-center">Job Description</h4>
+                    <p class="text-center" id="jobdesc">{{jobdesc}}</p>
+
+                    <div class="stats-container">
+                        <div class="stats">
+                            <h4 id="follo">{{follo}}</h4>
+                            <p>
+                                Followers
+                            </p>
+                        </div>
+                        <div class="stats">
+                            <h4 id="folloing">{{folloing}}</h4>
+                            <p>
+                                Following
+                            </p>
+                        </div>
+                        <div class="stats">
+                            <h4 id="proj">{{proj}}</h4>
+                            <p>
+                                Projects
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div> <!-- end back panel -->
+    </div> <!-- end card -->
+<div class="wrapper">
+    <form action="" id="wizard">
+        <!-- SECTION 1 -->
+        <h4></h4>
+        <section>
+            <div class="inner">
+
+                <!-- image -->
+                <a href="#" class="avartar">
+                    <img src="/assets/images/avartar.png" alt="">
+                </a>
+                <!-- name -->
+                <div class="form-row form-group">
+                    <div class="form-holder">
+                        <input [(ngModel)]="name" type="text" class="form-control" id="namef" placeholder="Name">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-holder">
+                        <input type="text" class="form-control" id="job" placeholder="Job"  [(ngModel)]="job" >
+                        <i class="zmdi zmdi-lock-open small"></i>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-holder">
+                        <input [(ngModel)]="desc" type="text" class="form-control" id="descrip" placeholder="Description">
+                        <i class="zmdi zmdi-email small"></i>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-holder">
+                        <input [(ngModel)]="jobdesc" type="text" class="form-control" id="jobdescf" placeholder="Job Description">
+                        <i class="zmdi zmdi-smartphone-android"></i>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-holder">
+                        <input [(ngModel)]="follo" type="number" class="form-control" id="follof" placeholder="Followers">
+                        <i class="zmdi zmdi-map small"></i>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-holder">
+                        <input [(ngModel)]="folloing" type="text" class="form-control" id="folloingf" placeholder="Following">
+                        <i class="zmdi zmdi-account-box-o small"></i>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-holder">
+                        <input type="number" class="form-control" id="projf" placeholder="Projects" [(ngModel)]="proj">
+                        <i class="zmdi zmdi-account-box-o small"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+</form>
+</div>
+</div> <!-- end card-container -->
