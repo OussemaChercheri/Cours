@@ -29,6 +29,10 @@ const UserSchema = new mongoose.Schema(
             type: String,
             enum: ['user', 'admin', 'superadmin'],
             default: 'admin'
-        }
-    }
+        },
+    },
+    { timestamps: true }
 );
+
+const User = mongoose.model('User', UserSchema);
+export default User;
