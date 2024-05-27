@@ -4,4 +4,11 @@
 
 <button (click)="traitement()">Click me</button>
 
-<input [(ngModel)]="student" type="text" class="form-control">
+<input [(ngModel)]="student" type="text" class="form-control" />
+
+<hr />
+
+<app-child
+    (msgToParent)="traitementDuApp($event)"
+    [colorPref]="color"
+></app-child>

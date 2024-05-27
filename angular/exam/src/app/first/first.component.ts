@@ -8,10 +8,14 @@ import { Component } from '@angular/core';
 export class FirstComponent {
   student= 'Gaith';
   age = 25;
-  color = 'Yellow';
+  color = 'green';
   hd = false;
 
   traitement(){
     alert("J'ai été cliqué !");
+  }
+
+  traitementDuApp(msg: string) {
+    this.student = msg;
   }
 }
