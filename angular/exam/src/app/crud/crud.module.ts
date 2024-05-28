@@ -1,10 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { AfficheComponent } from './affiche/affiche.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    AfficheComponent
+  ],
   imports: [
     CommonModule
   ]
