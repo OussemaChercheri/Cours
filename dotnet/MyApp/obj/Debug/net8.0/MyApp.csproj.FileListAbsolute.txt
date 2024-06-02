@@ -1,0 +1,15 @@
+/home/oussama/Documents/Cours/Cours/dotnet/MyApp/bin/Debug/net8.0/MyApp
+/home/oussama/Documents/Cours/Cours/dotnet/MyApp/bin/Debug/net8.0/MyApp.deps.json
+/home/oussama/Documents/Cours/Cours/dotnet/MyApp/bin/Debug/net8.0/MyApp.runtimeconfig.json
+/home/oussama/Documents/Cours/Cours/dotnet/MyApp/bin/Debug/net8.0/MyApp.dll
+/home/oussama/Documents/Cours/Cours/dotnet/MyApp/bin/Debug/net8.0/MyApp.pdb
+/home/oussama/Documents/Cours/Cours/dotnet/MyApp/obj/Debug/net8.0/MyApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/oussama/Documents/Cours/Cours/dotnet/MyApp/obj/Debug/net8.0/MyApp.AssemblyInfoInputs.cache
+/home/oussama/Documents/Cours/Cours/dotnet/MyApp/obj/Debug/net8.0/MyApp.AssemblyInfo.cs
+/home/oussama/Documents/Cours/Cours/dotnet/MyApp/obj/Debug/net8.0/MyApp.csproj.CoreCompileInputs.cache
+/home/oussama/Documents/Cours/Cours/dotnet/MyApp/obj/Debug/net8.0/MyApp.sourcelink.json
+/home/oussama/Documents/Cours/Cours/dotnet/MyApp/obj/Debug/net8.0/MyApp.dll
+/home/oussama/Documents/Cours/Cours/dotnet/MyApp/obj/Debug/net8.0/refint/MyApp.dll
+/home/oussama/Documents/Cours/Cours/dotnet/MyApp/obj/Debug/net8.0/MyApp.pdb
+/home/oussama/Documents/Cours/Cours/dotnet/MyApp/obj/Debug/net8.0/MyApp.genruntimeconfig.cache
+/home/oussama/Documents/Cours/Cours/dotnet/MyApp/obj/Debug/net8.0/ref/MyApp.dll
