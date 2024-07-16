@@ -1,0 +1,15 @@
+/home/oussama/Documents/Cours/Cours/C#/Tutor/bin/Debug/net8.0/Tutor
+/home/oussama/Documents/Cours/Cours/C#/Tutor/bin/Debug/net8.0/Tutor.deps.json
+/home/oussama/Documents/Cours/Cours/C#/Tutor/bin/Debug/net8.0/Tutor.runtimeconfig.json
+/home/oussama/Documents/Cours/Cours/C#/Tutor/bin/Debug/net8.0/Tutor.dll
+/home/oussama/Documents/Cours/Cours/C#/Tutor/bin/Debug/net8.0/Tutor.pdb
+/home/oussama/Documents/Cours/Cours/C#/Tutor/obj/Debug/net8.0/Tutor.GeneratedMSBuildEditorConfig.editorconfig
+/home/oussama/Documents/Cours/Cours/C#/Tutor/obj/Debug/net8.0/Tutor.AssemblyInfoInputs.cache
+/home/oussama/Documents/Cours/Cours/C#/Tutor/obj/Debug/net8.0/Tutor.AssemblyInfo.cs
+/home/oussama/Documents/Cours/Cours/C#/Tutor/obj/Debug/net8.0/Tutor.csproj.CoreCompileInputs.cache
+/home/oussama/Documents/Cours/Cours/C#/Tutor/obj/Debug/net8.0/Tutor.sourcelink.json
+/home/oussama/Documents/Cours/Cours/C#/Tutor/obj/Debug/net8.0/Tutor.dll
+/home/oussama/Documents/Cours/Cours/C#/Tutor/obj/Debug/net8.0/refint/Tutor.dll
+/home/oussama/Documents/Cours/Cours/C#/Tutor/obj/Debug/net8.0/Tutor.pdb
+/home/oussama/Documents/Cours/Cours/C#/Tutor/obj/Debug/net8.0/Tutor.genruntimeconfig.cache
+/home/oussama/Documents/Cours/Cours/C#/Tutor/obj/Debug/net8.0/ref/Tutor.dll
