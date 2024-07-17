@@ -29,7 +29,7 @@ Console.WriteLine(newCrustacen);
 newCrustacen.Remove(0, 8);
 Console.WriteLine(newCrustacen);
 
-*/
+
 
 //Array CRUD
 
@@ -54,3 +54,25 @@ foreach(var rat in newRats){
 
 //Delete
 //gimme
+*/
+
+//Counter
+for(var i = 1; i <= 10; i++){
+    Console.WriteLine(i);
+}
+
+string[] bands = ["The Beatles", "The Rolling Stones", "The Who", "The Kinks", "The Animals"];
+
+for(var i =0; i< bands.Length; i++){
+    Console.WriteLine(bands[i]);
+}
+
+foreach(var band in bands){
+    Console.WriteLine(band);
+}
+
+bands.ToList().ForEach((i) => {
+    Console.WriteLine("ForEach: " + i);
+});
+
+Array.ForEach(bands, e => Console.WriteLine("Array.ForEach: " + e));
