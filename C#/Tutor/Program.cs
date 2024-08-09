@@ -1,5 +1,33 @@
 ﻿using Tutor;
 
+State s1 = new(){
+    Adress = "1234 Main St",
+    Price = 100000,
+    SquareFootage = 1000
+};
+
+Console.WriteLine("THe price = "+s1.CalculatePricePerSquareFootage());
+
+(string, int, string)values = ("t", 2, "p");
+
+Console.WriteLine(values.Item1);
+
+
+
+var values2 = (First:"t", Second:2, Third:"p");
+
+Console.WriteLine(values2.First);
+
+(int a, string b, bool c) ReturnTheseValues(){
+    return (1, "t", true);
+}
+
+var tupleReturnValue = ReturnTheseValues();
+
+Console.WriteLine(tupleReturnValue.a);
+/*
+using Tutor;
+
 
 //CRUD
 
@@ -30,30 +58,6 @@ wolfRat.Name = "";
 fancyRat.Name = "";
 Console.WriteLine(wolfRat.Name);
 Console.WriteLine(fancyRat.Name);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
